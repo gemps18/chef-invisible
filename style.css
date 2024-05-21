@@ -243,16 +243,16 @@ body {
 }
 
 #product1 .pro-container {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
 }
 
 #product1 .pro {
     width: 20%;
     min-width: 250px;
     padding: 10px 12px;
-    border: 1px solid #000000;
+    border: 1px solid #282828;
     border-radius: 25px;
     cursor: pointer;
     background: linear-gradient(225deg, #242424, #2b2b2b);
@@ -455,7 +455,7 @@ body {
 #newsletter h4 {
     font-size: 22px;
     font-weight: 700;
-    color: #fff;
+    color: #FFFFF0;
 }
 
 #newsletter p span {
@@ -676,8 +676,11 @@ footer .copyright {
     justify-content: space-between;
     margin: 30px;
     padding: 80px;
-    border: 1px solid #FFFFF0;
+    border: 1px solid #282828;
     border-radius: 25px;
+    background: linear-gradient(225deg, #242424, #2b2b2b);
+    box-shadow:  -13px 13px 32px #121212,
+                 13px -13px 32px #3e3e3e;
 }
 
 #form-details form {
