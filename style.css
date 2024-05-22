@@ -492,7 +492,7 @@ body {
 #newsletter .type1::after {
   content: "Thanks";
   height: 50px;
-  width: 150px;
+  width: 100%;
   background-color: #282828;
   color: #FFFFF0;
   position: absolute;
@@ -510,7 +510,7 @@ body {
 #newsletter .type1::before {
   content: "Sign Up";
   height: 50px;
-  width: 150px;
+  width: 100%;
   background-color: #FFFFF0;
   color: #282828;
   position: absolute;
@@ -599,7 +599,60 @@ footer .copyright {
 
 /* Services Page */
 
+#services .ser-cont {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 100px;
+}
 
+#services .ser-card {
+    width: 325px;
+    background-color: #424242;
+    background: linear-gradient(225deg, #242424, #2b2b2b);
+    box-shadow:  -13px 13px 32px #121212,
+                 13px -13px 32px #3e3e3e;
+    border-radius: 25px;
+    overflow: hidden;
+    transition: transform 0.6s ease;
+}
+
+#services .ser-card:hover{
+    transform: translateY(-20px);
+}
+
+#services .ser-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+#services .ser-content {
+    padding: 20px;
+}
+
+#services .ser-content h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #FFB400;
+}
+
+#services .ser-content p {
+    font-size: 16px;
+    color: #FFFFF0;
+    margin-bottom: 20px;
+}
+
+#services .ser-card-button {
+    display: inline-block;
+    background-color: #000000;
+    color: #FFFFF0;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 8px 16px;
+}
 
 /* Contact Page */
 
