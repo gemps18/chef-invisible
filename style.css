@@ -961,10 +961,18 @@ footer .copyright {
     width: 50%;
 }
 
+#blog .blog-details h4 {
+    color: #FFB400;
+    font-size: 25px;
+    text-decoration: none;
+    margin-bottom: 10px;
+
+}
+
 #blog .blog-details a {
     text-decoration: none;
     font-size: 11px;
-    color: #000;
+    color: #FFFFF0;
     font-weight: 700;
     position: relative;
     transition: 0.3s;
@@ -974,18 +982,18 @@ footer .copyright {
     content: "";
     width: 50px;
     height: 1px;
-    background-color: #000;
+    background-color: #FFFFF0;
     position: absolute;
     top: 4px;
     right: -60px;
 }
 
 #blog .blog-details a:hover {
-    color: #088178;
+    color: #FFB400;
 }
 
 #blog .blog-details a:hover::after {
-    background-color: #088178;
+    background-color: #FFB400;
 }
 
 #blog .blog-box h1 {
@@ -994,7 +1002,7 @@ footer .copyright {
     left: 0;
     font-size: 70px;
     font-weight: 700;
-    color: #c9cbce;
+    color: #FFFFF0;
     z-index: -9;
 }
 
